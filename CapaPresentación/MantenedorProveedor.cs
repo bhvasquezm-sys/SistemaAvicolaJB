@@ -132,5 +132,10 @@ namespace CapaPresentación
             grupBoxDatos.Enabled = false;
             listarProveedor();
         }
+
+        private void MantenedorProveedor_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

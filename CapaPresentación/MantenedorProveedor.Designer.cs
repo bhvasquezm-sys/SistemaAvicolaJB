@@ -56,23 +56,29 @@
             // 
             // grupBoxDatos
             // 
-            this.grupBoxDatos.Controls.Add(this.btnNuevo);
-            this.grupBoxDatos.Controls.Add(this.btnSalir);
-            this.grupBoxDatos.Controls.Add(this.btnAgregar);
-            this.grupBoxDatos.Controls.Add(this.btnCancelar);
-            this.grupBoxDatos.Controls.Add(this.btnEditar);
-            this.grupBoxDatos.Controls.Add(this.btnDeshabilitar);
-            this.grupBoxDatos.Controls.Add(this.btnModificar);
-            this.grupBoxDatos.Location = new System.Drawing.Point(680, 12);
+            this.grupBoxDatos.Controls.Add(this.dtPickerRegProveedor);
+            this.grupBoxDatos.Controls.Add(this.lblFecha);
+            this.grupBoxDatos.Controls.Add(this.lblID);
+            this.grupBoxDatos.Controls.Add(this.lblRucProveedor);
+            this.grupBoxDatos.Controls.Add(this.txtidProveedor);
+            this.grupBoxDatos.Controls.Add(this.lblRazonSocial);
+            this.grupBoxDatos.Controls.Add(this.cbkEstadoProveedor);
+            this.grupBoxDatos.Controls.Add(this.txtRucProveedor);
+            this.grupBoxDatos.Controls.Add(this.txtTelefono);
+            this.grupBoxDatos.Controls.Add(this.lblCorreo);
+            this.grupBoxDatos.Controls.Add(this.lblTelefono);
+            this.grupBoxDatos.Controls.Add(this.txtCorreo);
+            this.grupBoxDatos.Controls.Add(this.txtRazonSocial);
+            this.grupBoxDatos.Location = new System.Drawing.Point(3, 305);
             this.grupBoxDatos.Name = "grupBoxDatos";
-            this.grupBoxDatos.Size = new System.Drawing.Size(108, 408);
+            this.grupBoxDatos.Size = new System.Drawing.Size(671, 149);
             this.grupBoxDatos.TabIndex = 10;
             this.grupBoxDatos.TabStop = false;
             this.grupBoxDatos.Text = "Datos";
             // 
             // btnNuevo
             // 
-            this.btnNuevo.Location = new System.Drawing.Point(6, 19);
+            this.btnNuevo.Location = new System.Drawing.Point(690, 12);
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(97, 31);
             this.btnNuevo.TabIndex = 0;
@@ -82,7 +88,7 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(6, 370);
+            this.btnSalir.Location = new System.Drawing.Point(690, 406);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(97, 32);
             this.btnSalir.TabIndex = 6;
@@ -92,7 +98,7 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(6, 131);
+            this.btnAgregar.Location = new System.Drawing.Point(690, 124);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(97, 32);
             this.btnAgregar.TabIndex = 1;
@@ -102,7 +108,7 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(6, 186);
+            this.btnCancelar.Location = new System.Drawing.Point(690, 179);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(97, 32);
             this.btnCancelar.TabIndex = 5;
@@ -112,7 +118,7 @@
             // 
             // btnEditar
             // 
-            this.btnEditar.Location = new System.Drawing.Point(6, 56);
+            this.btnEditar.Location = new System.Drawing.Point(690, 49);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(97, 31);
             this.btnEditar.TabIndex = 2;
@@ -122,7 +128,7 @@
             // 
             // btnDeshabilitar
             // 
-            this.btnDeshabilitar.Location = new System.Drawing.Point(6, 237);
+            this.btnDeshabilitar.Location = new System.Drawing.Point(690, 230);
             this.btnDeshabilitar.Name = "btnDeshabilitar";
             this.btnDeshabilitar.Size = new System.Drawing.Size(97, 31);
             this.btnDeshabilitar.TabIndex = 4;
@@ -132,7 +138,7 @@
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(6, 93);
+            this.btnModificar.Location = new System.Drawing.Point(690, 86);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(97, 32);
             this.btnModificar.TabIndex = 3;
@@ -152,7 +158,7 @@
             // lblFecha
             // 
             this.lblFecha.AutoSize = true;
-            this.lblFecha.Location = new System.Drawing.Point(333, 350);
+            this.lblFecha.Location = new System.Drawing.Point(331, 59);
             this.lblFecha.Name = "lblFecha";
             this.lblFecha.Size = new System.Drawing.Size(37, 13);
             this.lblFecha.TabIndex = 61;
@@ -161,7 +167,7 @@
             // lblTelefono
             // 
             this.lblTelefono.AutoSize = true;
-            this.lblTelefono.Location = new System.Drawing.Point(173, 352);
+            this.lblTelefono.Location = new System.Drawing.Point(171, 61);
             this.lblTelefono.Name = "lblTelefono";
             this.lblTelefono.Size = new System.Drawing.Size(49, 13);
             this.lblTelefono.TabIndex = 60;
@@ -170,7 +176,7 @@
             // lblCorreo
             // 
             this.lblCorreo.AutoSize = true;
-            this.lblCorreo.Location = new System.Drawing.Point(12, 398);
+            this.lblCorreo.Location = new System.Drawing.Point(10, 107);
             this.lblCorreo.Name = "lblCorreo";
             this.lblCorreo.Size = new System.Drawing.Size(94, 13);
             this.lblCorreo.TabIndex = 59;
@@ -179,7 +185,7 @@
             // lblRazonSocial
             // 
             this.lblRazonSocial.AutoSize = true;
-            this.lblRazonSocial.Location = new System.Drawing.Point(173, 311);
+            this.lblRazonSocial.Location = new System.Drawing.Point(171, 20);
             this.lblRazonSocial.Name = "lblRazonSocial";
             this.lblRazonSocial.Size = new System.Drawing.Size(70, 13);
             this.lblRazonSocial.TabIndex = 58;
@@ -188,7 +194,7 @@
             // lblRucProveedor
             // 
             this.lblRucProveedor.AutoSize = true;
-            this.lblRucProveedor.Location = new System.Drawing.Point(9, 352);
+            this.lblRucProveedor.Location = new System.Drawing.Point(7, 61);
             this.lblRucProveedor.Name = "lblRucProveedor";
             this.lblRucProveedor.Size = new System.Drawing.Size(30, 13);
             this.lblRucProveedor.TabIndex = 57;
@@ -197,7 +203,7 @@
             // lblID
             // 
             this.lblID.AutoSize = true;
-            this.lblID.Location = new System.Drawing.Point(9, 311);
+            this.lblID.Location = new System.Drawing.Point(7, 20);
             this.lblID.Name = "lblID";
             this.lblID.Size = new System.Drawing.Size(70, 13);
             this.lblID.TabIndex = 56;
@@ -206,7 +212,7 @@
             // cbkEstadoProveedor
             // 
             this.cbkEstadoProveedor.AutoSize = true;
-            this.cbkEstadoProveedor.Location = new System.Drawing.Point(111, 327);
+            this.cbkEstadoProveedor.Location = new System.Drawing.Point(109, 36);
             this.cbkEstadoProveedor.Name = "cbkEstadoProveedor";
             this.cbkEstadoProveedor.Size = new System.Drawing.Size(59, 17);
             this.cbkEstadoProveedor.TabIndex = 55;
@@ -215,42 +221,42 @@
             // 
             // dtPickerRegProveedor
             // 
-            this.dtPickerRegProveedor.Location = new System.Drawing.Point(336, 368);
+            this.dtPickerRegProveedor.Location = new System.Drawing.Point(334, 77);
             this.dtPickerRegProveedor.Name = "dtPickerRegProveedor";
             this.dtPickerRegProveedor.Size = new System.Drawing.Size(200, 20);
             this.dtPickerRegProveedor.TabIndex = 54;
             // 
             // txtTelefono
             // 
-            this.txtTelefono.Location = new System.Drawing.Point(176, 368);
+            this.txtTelefono.Location = new System.Drawing.Point(174, 77);
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(146, 20);
             this.txtTelefono.TabIndex = 53;
             // 
             // txtCorreo
             // 
-            this.txtCorreo.Location = new System.Drawing.Point(12, 415);
+            this.txtCorreo.Location = new System.Drawing.Point(10, 124);
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.Size = new System.Drawing.Size(524, 20);
             this.txtCorreo.TabIndex = 52;
             // 
             // txtRazonSocial
             // 
-            this.txtRazonSocial.Location = new System.Drawing.Point(176, 327);
+            this.txtRazonSocial.Location = new System.Drawing.Point(174, 36);
             this.txtRazonSocial.Name = "txtRazonSocial";
             this.txtRazonSocial.Size = new System.Drawing.Size(360, 20);
             this.txtRazonSocial.TabIndex = 51;
             // 
             // txtRucProveedor
             // 
-            this.txtRucProveedor.Location = new System.Drawing.Point(12, 368);
+            this.txtRucProveedor.Location = new System.Drawing.Point(10, 77);
             this.txtRucProveedor.Name = "txtRucProveedor";
             this.txtRucProveedor.Size = new System.Drawing.Size(158, 20);
             this.txtRucProveedor.TabIndex = 50;
             // 
             // txtidProveedor
             // 
-            this.txtidProveedor.Location = new System.Drawing.Point(12, 327);
+            this.txtidProveedor.Location = new System.Drawing.Point(10, 36);
             this.txtidProveedor.Name = "txtidProveedor";
             this.txtidProveedor.Size = new System.Drawing.Size(93, 20);
             this.txtidProveedor.TabIndex = 49;
@@ -259,28 +265,23 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lblFecha);
-            this.Controls.Add(this.lblTelefono);
-            this.Controls.Add(this.lblCorreo);
-            this.Controls.Add(this.lblRazonSocial);
-            this.Controls.Add(this.lblRucProveedor);
-            this.Controls.Add(this.lblID);
-            this.Controls.Add(this.cbkEstadoProveedor);
-            this.Controls.Add(this.dtPickerRegProveedor);
-            this.Controls.Add(this.txtTelefono);
-            this.Controls.Add(this.txtCorreo);
-            this.Controls.Add(this.txtRazonSocial);
-            this.Controls.Add(this.txtRucProveedor);
-            this.Controls.Add(this.txtidProveedor);
+            this.ClientSize = new System.Drawing.Size(802, 450);
+            this.Controls.Add(this.btnNuevo);
+            this.Controls.Add(this.btnSalir);
+            this.Controls.Add(this.btnAgregar);
+            this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.btnEditar);
+            this.Controls.Add(this.btnDeshabilitar);
+            this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.dgvProveedor);
             this.Controls.Add(this.grupBoxDatos);
             this.Name = "MantenedorProveedor";
             this.Text = "MantenedorProveedor";
+            this.Load += new System.EventHandler(this.MantenedorProveedor_Load);
             this.grupBoxDatos.ResumeLayout(false);
+            this.grupBoxDatos.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProveedor)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

@@ -56,23 +56,29 @@
             // 
             // grupBoxDatos
             // 
-            this.grupBoxDatos.Controls.Add(this.btnNuevo);
-            this.grupBoxDatos.Controls.Add(this.btnSalir);
-            this.grupBoxDatos.Controls.Add(this.btnAgregar);
-            this.grupBoxDatos.Controls.Add(this.btnCancelar);
-            this.grupBoxDatos.Controls.Add(this.btnEditar);
-            this.grupBoxDatos.Controls.Add(this.btnDeshabilitar);
-            this.grupBoxDatos.Controls.Add(this.btnModificar);
-            this.grupBoxDatos.Location = new System.Drawing.Point(680, 12);
+            this.grupBoxDatos.Controls.Add(this.txtDescripcion);
+            this.grupBoxDatos.Controls.Add(this.lblFecha);
+            this.grupBoxDatos.Controls.Add(this.txtidCondicionPago);
+            this.grupBoxDatos.Controls.Add(this.txtDiasCredito);
+            this.grupBoxDatos.Controls.Add(this.lblModalidad);
+            this.grupBoxDatos.Controls.Add(this.txtNombreProducto);
+            this.grupBoxDatos.Controls.Add(this.txtModalidadEntrega);
+            this.grupBoxDatos.Controls.Add(this.lblDescripcion);
+            this.grupBoxDatos.Controls.Add(this.dtPickerRegCondicion);
+            this.grupBoxDatos.Controls.Add(this.cbkEstadoCondicion);
+            this.grupBoxDatos.Controls.Add(this.lblNombreProducto);
+            this.grupBoxDatos.Controls.Add(this.lblidCondicionPago);
+            this.grupBoxDatos.Controls.Add(this.lblDiasCredito);
+            this.grupBoxDatos.Location = new System.Drawing.Point(12, 297);
             this.grupBoxDatos.Name = "grupBoxDatos";
-            this.grupBoxDatos.Size = new System.Drawing.Size(108, 408);
+            this.grupBoxDatos.Size = new System.Drawing.Size(662, 152);
             this.grupBoxDatos.TabIndex = 9;
             this.grupBoxDatos.TabStop = false;
             this.grupBoxDatos.Text = "Datos";
             // 
             // btnNuevo
             // 
-            this.btnNuevo.Location = new System.Drawing.Point(6, 19);
+            this.btnNuevo.Location = new System.Drawing.Point(693, 12);
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(97, 31);
             this.btnNuevo.TabIndex = 0;
@@ -82,7 +88,7 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(6, 370);
+            this.btnSalir.Location = new System.Drawing.Point(693, 408);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(97, 32);
             this.btnSalir.TabIndex = 6;
@@ -92,7 +98,7 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(6, 131);
+            this.btnAgregar.Location = new System.Drawing.Point(693, 124);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(97, 32);
             this.btnAgregar.TabIndex = 1;
@@ -102,7 +108,7 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(6, 186);
+            this.btnCancelar.Location = new System.Drawing.Point(693, 179);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(97, 32);
             this.btnCancelar.TabIndex = 5;
@@ -112,7 +118,7 @@
             // 
             // btnEditar
             // 
-            this.btnEditar.Location = new System.Drawing.Point(6, 56);
+            this.btnEditar.Location = new System.Drawing.Point(693, 49);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(97, 31);
             this.btnEditar.TabIndex = 2;
@@ -122,7 +128,7 @@
             // 
             // btnDeshabilitar
             // 
-            this.btnDeshabilitar.Location = new System.Drawing.Point(6, 237);
+            this.btnDeshabilitar.Location = new System.Drawing.Point(693, 230);
             this.btnDeshabilitar.Name = "btnDeshabilitar";
             this.btnDeshabilitar.Size = new System.Drawing.Size(97, 31);
             this.btnDeshabilitar.TabIndex = 4;
@@ -132,7 +138,7 @@
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(6, 93);
+            this.btnModificar.Location = new System.Drawing.Point(693, 86);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(97, 32);
             this.btnModificar.TabIndex = 3;
@@ -145,14 +151,14 @@
             this.dgvCondicionPago.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCondicionPago.Location = new System.Drawing.Point(12, 12);
             this.dgvCondicionPago.Name = "dgvCondicionPago";
-            this.dgvCondicionPago.Size = new System.Drawing.Size(662, 287);
+            this.dgvCondicionPago.Size = new System.Drawing.Size(662, 279);
             this.dgvCondicionPago.TabIndex = 17;
             this.dgvCondicionPago.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCondicionPago_CellDoubleClick);
             // 
             // lblFecha
             // 
             this.lblFecha.AutoSize = true;
-            this.lblFecha.Location = new System.Drawing.Point(269, 355);
+            this.lblFecha.Location = new System.Drawing.Point(260, 60);
             this.lblFecha.Name = "lblFecha";
             this.lblFecha.Size = new System.Drawing.Size(37, 13);
             this.lblFecha.TabIndex = 48;
@@ -161,7 +167,7 @@
             // lblModalidad
             // 
             this.lblModalidad.AutoSize = true;
-            this.lblModalidad.Location = new System.Drawing.Point(94, 355);
+            this.lblModalidad.Location = new System.Drawing.Point(85, 60);
             this.lblModalidad.Name = "lblModalidad";
             this.lblModalidad.Size = new System.Drawing.Size(110, 13);
             this.lblModalidad.TabIndex = 47;
@@ -170,7 +176,7 @@
             // lblDescripcion
             // 
             this.lblDescripcion.AutoSize = true;
-            this.lblDescripcion.Location = new System.Drawing.Point(15, 401);
+            this.lblDescripcion.Location = new System.Drawing.Point(6, 106);
             this.lblDescripcion.Name = "lblDescripcion";
             this.lblDescripcion.Size = new System.Drawing.Size(63, 13);
             this.lblDescripcion.TabIndex = 46;
@@ -179,7 +185,7 @@
             // lblNombreProducto
             // 
             this.lblNombreProducto.AutoSize = true;
-            this.lblNombreProducto.Location = new System.Drawing.Point(176, 314);
+            this.lblNombreProducto.Location = new System.Drawing.Point(167, 19);
             this.lblNombreProducto.Name = "lblNombreProducto";
             this.lblNombreProducto.Size = new System.Drawing.Size(105, 13);
             this.lblNombreProducto.TabIndex = 45;
@@ -188,7 +194,7 @@
             // lblDiasCredito
             // 
             this.lblDiasCredito.AutoSize = true;
-            this.lblDiasCredito.Location = new System.Drawing.Point(12, 355);
+            this.lblDiasCredito.Location = new System.Drawing.Point(3, 60);
             this.lblDiasCredito.Name = "lblDiasCredito";
             this.lblDiasCredito.Size = new System.Drawing.Size(79, 13);
             this.lblDiasCredito.TabIndex = 44;
@@ -197,7 +203,7 @@
             // lblidCondicionPago
             // 
             this.lblidCondicionPago.AutoSize = true;
-            this.lblidCondicionPago.Location = new System.Drawing.Point(12, 314);
+            this.lblidCondicionPago.Location = new System.Drawing.Point(3, 19);
             this.lblidCondicionPago.Name = "lblidCondicionPago";
             this.lblidCondicionPago.Size = new System.Drawing.Size(96, 13);
             this.lblidCondicionPago.TabIndex = 43;
@@ -206,7 +212,7 @@
             // cbkEstadoCondicion
             // 
             this.cbkEstadoCondicion.AutoSize = true;
-            this.cbkEstadoCondicion.Location = new System.Drawing.Point(114, 330);
+            this.cbkEstadoCondicion.Location = new System.Drawing.Point(105, 35);
             this.cbkEstadoCondicion.Name = "cbkEstadoCondicion";
             this.cbkEstadoCondicion.Size = new System.Drawing.Size(59, 17);
             this.cbkEstadoCondicion.TabIndex = 42;
@@ -215,42 +221,42 @@
             // 
             // dtPickerRegCondicion
             // 
-            this.dtPickerRegCondicion.Location = new System.Drawing.Point(272, 371);
+            this.dtPickerRegCondicion.Location = new System.Drawing.Point(263, 76);
             this.dtPickerRegCondicion.Name = "dtPickerRegCondicion";
             this.dtPickerRegCondicion.Size = new System.Drawing.Size(200, 20);
             this.dtPickerRegCondicion.TabIndex = 41;
             // 
             // txtModalidadEntrega
             // 
-            this.txtModalidadEntrega.Location = new System.Drawing.Point(97, 371);
+            this.txtModalidadEntrega.Location = new System.Drawing.Point(88, 76);
             this.txtModalidadEntrega.Name = "txtModalidadEntrega";
             this.txtModalidadEntrega.Size = new System.Drawing.Size(169, 20);
             this.txtModalidadEntrega.TabIndex = 40;
             // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(15, 418);
+            this.txtDescripcion.Location = new System.Drawing.Point(6, 123);
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(524, 20);
             this.txtDescripcion.TabIndex = 39;
             // 
             // txtNombreProducto
             // 
-            this.txtNombreProducto.Location = new System.Drawing.Point(179, 330);
+            this.txtNombreProducto.Location = new System.Drawing.Point(170, 35);
             this.txtNombreProducto.Name = "txtNombreProducto";
             this.txtNombreProducto.Size = new System.Drawing.Size(360, 20);
             this.txtNombreProducto.TabIndex = 38;
             // 
             // txtDiasCredito
             // 
-            this.txtDiasCredito.Location = new System.Drawing.Point(15, 371);
+            this.txtDiasCredito.Location = new System.Drawing.Point(6, 76);
             this.txtDiasCredito.Name = "txtDiasCredito";
             this.txtDiasCredito.Size = new System.Drawing.Size(76, 20);
             this.txtDiasCredito.TabIndex = 37;
             // 
             // txtidCondicionPago
             // 
-            this.txtidCondicionPago.Location = new System.Drawing.Point(15, 330);
+            this.txtidCondicionPago.Location = new System.Drawing.Point(6, 35);
             this.txtidCondicionPago.Name = "txtidCondicionPago";
             this.txtidCondicionPago.Size = new System.Drawing.Size(93, 20);
             this.txtidCondicionPago.TabIndex = 36;
@@ -259,28 +265,22 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lblFecha);
-            this.Controls.Add(this.lblModalidad);
-            this.Controls.Add(this.lblDescripcion);
-            this.Controls.Add(this.lblNombreProducto);
-            this.Controls.Add(this.lblDiasCredito);
-            this.Controls.Add(this.lblidCondicionPago);
-            this.Controls.Add(this.cbkEstadoCondicion);
-            this.Controls.Add(this.dtPickerRegCondicion);
-            this.Controls.Add(this.txtModalidadEntrega);
-            this.Controls.Add(this.txtDescripcion);
-            this.Controls.Add(this.txtNombreProducto);
-            this.Controls.Add(this.txtDiasCredito);
-            this.Controls.Add(this.txtidCondicionPago);
+            this.ClientSize = new System.Drawing.Size(805, 450);
+            this.Controls.Add(this.btnNuevo);
+            this.Controls.Add(this.btnSalir);
+            this.Controls.Add(this.btnAgregar);
+            this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.btnEditar);
+            this.Controls.Add(this.btnDeshabilitar);
+            this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.dgvCondicionPago);
             this.Controls.Add(this.grupBoxDatos);
             this.Name = "MantenedorCondicionPago";
             this.Text = "MantenedorCondicionPago";
             this.grupBoxDatos.ResumeLayout(false);
+            this.grupBoxDatos.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCondicionPago)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
